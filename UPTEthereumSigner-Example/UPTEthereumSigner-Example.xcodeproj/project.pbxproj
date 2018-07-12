@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04937E6520F8170F0056C414 /* UPTSaveFromPrivateKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04937E5D20F8170E0056C414 /* UPTSaveFromPrivateKeyViewController.m */; };
+		04937E6620F8170F0056C414 /* UPTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04937E5F20F8170E0056C414 /* UPTAppDelegate.m */; };
+		04937E6720F8170F0056C414 /* UPTCreateKeysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04937E6020F8170E0056C414 /* UPTCreateKeysViewController.m */; };
+		04937E6820F8170F0056C414 /* UPTSignTransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04937E6120F8170E0056C414 /* UPTSignTransactionViewController.m */; };
+		04937E6920F8170F0056C414 /* UPTSignJWTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04937E6220F8170F0056C414 /* UPTSignJWTViewController.m */; };
+		04937E6A20F8170F0056C414 /* UPTMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04937E6420F8170F0056C414 /* UPTMainTableViewController.m */; };
+		04937E6C20F81A920056C414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04937E6B20F81A920056C414 /* Main.storyboard */; };
+		04DC451120DADA50002BB189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DC451020DADA50002BB189 /* Assets.xcassets */; };
+		04DC451420DADA50002BB189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DC451220DADA50002BB189 /* LaunchScreen.storyboard */; };
+		04DC451720DADA50002BB189 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DC451620DADA50002BB189 /* main.m */; };
+		04DC452120DADA50002BB189 /* UPTEthereumSigner_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DC452020DADA50002BB189 /* UPTEthereumSigner_ExampleTests.m */; };
+		40FF865621474F8996D304CB /* Pods_UPTEthereumSigner_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805ED38A64D74A0B22665B02 /* Pods_UPTEthereumSigner_Example.framework */; };
+		D648AD860B0AAF1E886A02B2 /* Pods_UPTEthereumSigner_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E782EA87E1BC2C02883F5C78 /* Pods_UPTEthereumSigner_ExampleTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04DC451D20DADA50002BB189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DC44FC20DADA4E002BB189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DC450320DADA4E002BB189;
+			remoteInfo = "UPTEthereumSigner-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04937E5820F8170C0056C414 /* UPTMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPTMainTableViewController.h; sourceTree = "<group>"; };
+		04937E5920F8170D0056C414 /* UPTSignTransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPTSignTransactionViewController.h; sourceTree = "<group>"; };
+		04937E5A20F8170D0056C414 /* UPTEthereumSigner-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UPTEthereumSigner-Prefix.pch"; sourceTree = "<group>"; };
+		04937E5B20F8170D0056C414 /* UPTSignJWTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPTSignJWTViewController.h; sourceTree = "<group>"; };
+		04937E5C20F8170D0056C414 /* UPTCreateKeysViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPTCreateKeysViewController.h; sourceTree = "<group>"; };
+		04937E5D20F8170E0056C414 /* UPTSaveFromPrivateKeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPTSaveFromPrivateKeyViewController.m; sourceTree = "<group>"; };
+		04937E5E20F8170E0056C414 /* UPTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPTAppDelegate.h; sourceTree = "<group>"; };
+		04937E5F20F8170E0056C414 /* UPTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPTAppDelegate.m; sourceTree = "<group>"; };
+		04937E6020F8170E0056C414 /* UPTCreateKeysViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPTCreateKeysViewController.m; sourceTree = "<group>"; };
+		04937E6120F8170E0056C414 /* UPTSignTransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPTSignTransactionViewController.m; sourceTree = "<group>"; };
+		04937E6220F8170F0056C414 /* UPTSignJWTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPTSignJWTViewController.m; sourceTree = "<group>"; };
+		04937E6320F8170F0056C414 /* UPTSaveFromPrivateKeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPTSaveFromPrivateKeyViewController.h; sourceTree = "<group>"; };
+		04937E6420F8170F0056C414 /* UPTMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPTMainTableViewController.m; sourceTree = "<group>"; };
+		04937E6B20F81A920056C414 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		04DC450420DADA4E002BB189 /* UPTEthereumSigner-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UPTEthereumSigner-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DC451020DADA50002BB189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04DC451320DADA50002BB189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04DC451520DADA50002BB189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DC451620DADA50002BB189 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04DC451C20DADA50002BB189 /* UPTEthereumSigner-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UPTEthereumSigner-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DC452020DADA50002BB189 /* UPTEthereumSigner_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPTEthereumSigner_ExampleTests.m; sourceTree = "<group>"; };
+		04DC452220DADA50002BB189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147063485F8025D7C7E3ACE6 /* Pods-UPTEthereumSigner-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPTEthereumSigner-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UPTEthereumSigner-Example/Pods-UPTEthereumSigner-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		73A8028CAC40CEFF95773194 /* Pods-UPTEthereumSigner-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPTEthereumSigner-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UPTEthereumSigner-Example/Pods-UPTEthereumSigner-Example.release.xcconfig"; sourceTree = "<group>"; };
+		805ED38A64D74A0B22665B02 /* Pods_UPTEthereumSigner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UPTEthereumSigner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DE1D985649ACA52BF40DEC /* Pods-UPTEthereumSigner-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPTEthereumSigner-ExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UPTEthereumSigner-ExampleTests/Pods-UPTEthereumSigner-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6238ABD997508567502EC73 /* Pods-UPTEthereumSigner-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPTEthereumSigner-ExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UPTEthereumSigner-ExampleTests/Pods-UPTEthereumSigner-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E782EA87E1BC2C02883F5C78 /* Pods_UPTEthereumSigner_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UPTEthereumSigner_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DC450120DADA4E002BB189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FF865621474F8996D304CB /* Pods_UPTEthereumSigner_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DC451920DADA50002BB189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D648AD860B0AAF1E886A02B2 /* Pods_UPTEthereumSigner_ExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04937E5720F816F60056C414 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04937E5E20F8170E0056C414 /* UPTAppDelegate.h */,
+				04937E5F20F8170E0056C414 /* UPTAppDelegate.m */,
+				04937E5C20F8170D0056C414 /* UPTCreateKeysViewController.h */,
+				04937E6020F8170E0056C414 /* UPTCreateKeysViewController.m */,
+				04937E5A20F8170D0056C414 /* UPTEthereumSigner-Prefix.pch */,
+				04937E5820F8170C0056C414 /* UPTMainTableViewController.h */,
+				04937E6420F8170F0056C414 /* UPTMainTableViewController.m */,
+				04937E6320F8170F0056C414 /* UPTSaveFromPrivateKeyViewController.h */,
+				04937E5D20F8170E0056C414 /* UPTSaveFromPrivateKeyViewController.m */,
+				04937E5B20F8170D0056C414 /* UPTSignJWTViewController.h */,
+				04937E6220F8170F0056C414 /* UPTSignJWTViewController.m */,
+				04937E5920F8170D0056C414 /* UPTSignTransactionViewController.h */,
+				04937E6120F8170E0056C414 /* UPTSignTransactionViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		04DC44FB20DADA4E002BB189 = {
+			isa = PBXGroup;
+			children = (
+				04DC450620DADA4E002BB189 /* UPTEthereumSigner-Example */,
+				04DC451F20DADA50002BB189 /* UPTEthereumSigner-ExampleTests */,
+				04DC450520DADA4E002BB189 /* Products */,
+				5784EE4FCCDBF4F40C3F4A8A /* Pods */,
+				932BC41C131D15117037F152 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04DC450520DADA4E002BB189 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DC450420DADA4E002BB189 /* UPTEthereumSigner-Example.app */,
+				04DC451C20DADA50002BB189 /* UPTEthereumSigner-ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DC450620DADA4E002BB189 /* UPTEthereumSigner-Example */ = {
+			isa = PBXGroup;
+			children = (
+				04937E5720F816F60056C414 /* Classes */,
+				04DC451020DADA50002BB189 /* Assets.xcassets */,
+				04DC451220DADA50002BB189 /* LaunchScreen.storyboard */,
+				04937E6B20F81A920056C414 /* Main.storyboard */,
+				04DC451520DADA50002BB189 /* Info.plist */,
+				04DC451620DADA50002BB189 /* main.m */,
+			);
+			path = "UPTEthereumSigner-Example";
+			sourceTree = "<group>";
+		};
+		04DC451F20DADA50002BB189 /* UPTEthereumSigner-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				04DC452020DADA50002BB189 /* UPTEthereumSigner_ExampleTests.m */,
+				04DC452220DADA50002BB189 /* Info.plist */,
+			);
+			path = "UPTEthereumSigner-ExampleTests";
+			sourceTree = "<group>";
+		};
+		5784EE4FCCDBF4F40C3F4A8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				147063485F8025D7C7E3ACE6 /* Pods-UPTEthereumSigner-Example.debug.xcconfig */,
+				73A8028CAC40CEFF95773194 /* Pods-UPTEthereumSigner-Example.release.xcconfig */,
+				A6238ABD997508567502EC73 /* Pods-UPTEthereumSigner-ExampleTests.debug.xcconfig */,
+				84DE1D985649ACA52BF40DEC /* Pods-UPTEthereumSigner-ExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		932BC41C131D15117037F152 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				805ED38A64D74A0B22665B02 /* Pods_UPTEthereumSigner_Example.framework */,
+				E782EA87E1BC2C02883F5C78 /* Pods_UPTEthereumSigner_ExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DC450320DADA4E002BB189 /* UPTEthereumSigner-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DC452520DADA50002BB189 /* Build configuration list for PBXNativeTarget "UPTEthereumSigner-Example" */;
+			buildPhases = (
+				7516DA9D95CBDABC1BDE5967 /* [CP] Check Pods Manifest.lock */,
+				04DC450020DADA4E002BB189 /* Sources */,
+				04DC450120DADA4E002BB189 /* Frameworks */,
+				04DC450220DADA4E002BB189 /* Resources */,
+				AF23480BA627B24C3C0CDBD7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UPTEthereumSigner-Example";
+			productName = "UPTEthereumSigner-Example";
+			productReference = 04DC450420DADA4E002BB189 /* UPTEthereumSigner-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04DC451B20DADA50002BB189 /* UPTEthereumSigner-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DC452820DADA50002BB189 /* Build configuration list for PBXNativeTarget "UPTEthereumSigner-ExampleTests" */;
+			buildPhases = (
+				864C9BC2CE0459CA5BF4C542 /* [CP] Check Pods Manifest.lock */,
+				04DC451820DADA50002BB189 /* Sources */,
+				04DC451920DADA50002BB189 /* Frameworks */,
+				04DC451A20DADA50002BB189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DC451E20DADA50002BB189 /* PBXTargetDependency */,
+			);
+			name = "UPTEthereumSigner-ExampleTests";
+			productName = "UPTEthereumSigner-ExampleTests";
+			productReference = 04DC451C20DADA50002BB189 /* UPTEthereumSigner-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DC44FC20DADA4E002BB189 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Concensys;
+				TargetAttributes = {
+					04DC450320DADA4E002BB189 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					04DC451B20DADA50002BB189 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 04DC450320DADA4E002BB189;
+					};
+				};
+			};
+			buildConfigurationList = 04DC44FF20DADA4E002BB189 /* Build configuration list for PBXProject "UPTEthereumSigner-Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04DC44FB20DADA4E002BB189;
+			productRefGroup = 04DC450520DADA4E002BB189 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DC450320DADA4E002BB189 /* UPTEthereumSigner-Example */,
+				04DC451B20DADA50002BB189 /* UPTEthereumSigner-ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04DC450220DADA4E002BB189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04937E6C20F81A920056C414 /* Main.storyboard in Resources */,
+				04DC451420DADA50002BB189 /* LaunchScreen.storyboard in Resources */,
+				04DC451120DADA50002BB189 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DC451A20DADA50002BB189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7516DA9D95CBDABC1BDE5967 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UPTEthereumSigner-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		864C9BC2CE0459CA5BF4C542 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UPTEthereumSigner-ExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF23480BA627B24C3C0CDBD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UPTEthereumSigner-Example/Pods-UPTEthereumSigner-Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CoreEthereum/CoreEthereum.framework",
+				"${BUILT_PRODUCTS_DIR}/ISO8601DateFormatter/ISO8601DateFormatter.framework",
+				"${BUILT_PRODUCTS_DIR}/UPTEthereumSigner/UPTEthereumSigner.framework",
+				"${BUILT_PRODUCTS_DIR}/Valet/Valet.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreEthereum.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ISO8601DateFormatter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UPTEthereumSigner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Valet.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UPTEthereumSigner-Example/Pods-UPTEthereumSigner-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DC450020DADA4E002BB189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04937E6720F8170F0056C414 /* UPTCreateKeysViewController.m in Sources */,
+				04DC451720DADA50002BB189 /* main.m in Sources */,
+				04937E6A20F8170F0056C414 /* UPTMainTableViewController.m in Sources */,
+				04937E6920F8170F0056C414 /* UPTSignJWTViewController.m in Sources */,
+				04937E6620F8170F0056C414 /* UPTAppDelegate.m in Sources */,
+				04937E6820F8170F0056C414 /* UPTSignTransactionViewController.m in Sources */,
+				04937E6520F8170F0056C414 /* UPTSaveFromPrivateKeyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DC451820DADA50002BB189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DC452120DADA50002BB189 /* UPTEthereumSigner_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04DC451E20DADA50002BB189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DC450320DADA4E002BB189 /* UPTEthereumSigner-Example */;
+			targetProxy = 04DC451D20DADA50002BB189 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04DC451220DADA50002BB189 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DC451320DADA50002BB189 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04DC452320DADA50002BB189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04DC452420DADA50002BB189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DC452620DADA50002BB189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 147063485F8025D7C7E3ACE6 /* Pods-UPTEthereumSigner-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82SAVLYZ3K;
+				INFOPLIST_FILE = "UPTEthereumSigner-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wowcow.UPTEthereumSigner-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04DC452720DADA50002BB189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73A8028CAC40CEFF95773194 /* Pods-UPTEthereumSigner-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82SAVLYZ3K;
+				INFOPLIST_FILE = "UPTEthereumSigner-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wowcow.UPTEthereumSigner-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04DC452920DADA50002BB189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6238ABD997508567502EC73 /* Pods-UPTEthereumSigner-ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82SAVLYZ3K;
+				INFOPLIST_FILE = "UPTEthereumSigner-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wowcow.UPTEthereumSigner-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UPTEthereumSigner-Example.app/UPTEthereumSigner-Example";
+			};
+			name = Debug;
+		};
+		04DC452A20DADA50002BB189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84DE1D985649ACA52BF40DEC /* Pods-UPTEthereumSigner-ExampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82SAVLYZ3K;
+				INFOPLIST_FILE = "UPTEthereumSigner-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wowcow.UPTEthereumSigner-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UPTEthereumSigner-Example.app/UPTEthereumSigner-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DC44FF20DADA4E002BB189 /* Build configuration list for PBXProject "UPTEthereumSigner-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DC452320DADA50002BB189 /* Debug */,
+				04DC452420DADA50002BB189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DC452520DADA50002BB189 /* Build configuration list for PBXNativeTarget "UPTEthereumSigner-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DC452620DADA50002BB189 /* Debug */,
+				04DC452720DADA50002BB189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DC452820DADA50002BB189 /* Build configuration list for PBXNativeTarget "UPTEthereumSigner-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DC452920DADA50002BB189 /* Debug */,
+				04DC452A20DADA50002BB189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04DC44FC20DADA4E002BB189 /* Project object */;
+}
